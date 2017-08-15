@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.zhqchen.cornertipview.CornerTipView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/app_btn_camera_normal"
+            app:tip_corner_position="top_left"
+            app:tip_text="label"
+            app:tip_background="@color/colorAccent"/>
+
+        <com.zhqchen.cornertipview.CornerTipView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/app_btn_camera_normal"
+            app:tip_corner_position="top_right"
+            app:tip_text="tip"
+            app:tip_background="@color/colorAccent"/>
+
+        <com.zhqchen.cornertipview.CornerTipView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/app_btn_camera_normal"
+            app:tip_corner_position="bottom_left"
+            app:tip_text="label"
+            app:tip_background="@color/colorAccent"/>
+
+        <com.zhqchen.cornertipview.CornerTipView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/app_btn_camera_normal"
+            app:tip_corner_position="bottom_right"
+            app:tip_text="label"
+            app:tip_background="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.zhqchen.cornertipview.CornerTipView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/app_btn_camera_normal"
+            app:tip_start_dis_x="0dp"
+            app:tip_corner_position="top_left"
+            app:tip_text="label"
+            app:tip_background="@color/colorAccent"/>
+
+        <com.zhqchen.cornertipview.CornerTipView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/app_btn_camera_normal"
+            app:tip_start_dis_x="0dp"
+            app:tip_corner_position="top_right"
+            app:tip_text="label"
+            app:tip_background="@color/colorAccent"/>
+
+        <com.zhqchen.cornertipview.CornerTipView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/app_btn_camera_normal"
+            app:tip_start_dis_x="0dp"
+            app:tip_corner_position="bottom_left"
+            app:tip_text="label"
+            app:tip_background="@color/colorAccent"/>
+
+        <com.zhqchen.cornertipview.CornerTipView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/app_btn_camera_normal"
+            app:tip_start_dis_x="0dp"
+            app:tip_corner_position="bottom_right"
+            app:tip_text="label"
+            app:tip_background="@color/colorAccent"/>
+
+    </LinearLayout>
+</LinearLayout>

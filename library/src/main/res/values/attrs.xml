@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 角标斜梯形提示View-->
+    <declare-styleable name="CornerTipView">
+        <attr name="tip_corner_position"><!--提示梯形的位置，默认左上角-->
+            <enum name="top_left" value="0"/>
+            <enum name="top_right" value="1"/>
+            <enum name="bottom_left" value="2"/>
+            <enum name="bottom_right" value="3"/>
+        </attr>
+        <attr name="tip_start_dis_x" format="dimension" /><!--x方向上起始点与所在角落的距离，默认20dp-->
+        <attr name="tip_text_v_padding" format="dimension" /><!--字在梯形内的上下间距，默认3dp-->
+        <attr name="tip_background" format="color" /><!--提示梯形的背景色，默认主题橙色-->
+        <attr name="tip_text_color" format="color" /><!--提示梯形的字的颜色，默认白色-->
+        <attr name="tip_text_size" format="dimension" /><!--提示梯形的字的大小，默认11sp-->
+        <attr name="tip_text" format="string" /><!--提示文本-->
+    </declare-styleable>
+</resources>
