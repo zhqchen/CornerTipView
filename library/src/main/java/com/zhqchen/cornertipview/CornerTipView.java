@@ -10,7 +10,6 @@ import android.graphics.Rect;
 import android.text.TextPaint;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 
@@ -108,8 +107,7 @@ public class CornerTipView extends View {
         }
         float realWaist = waistDis;
         if(realStartDisH == 0) {
-            Log.e("realWaist", "" + realWaist);
-            realWaist = realWaist + startDisH;//若设置了其实位置为0，说明直接从角落点开始，梯形变为三角形，腰长变大
+            realWaist = realWaist + startDisH;//若设置了起始位置为0，说明直接从角落点开始，梯形变为三角形，腰长变大
         }
         switch (tipCornerPosition) {
             case TIP_POSITION_TOP_LEFT:

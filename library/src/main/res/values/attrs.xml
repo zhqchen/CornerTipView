@@ -10,7 +10,7 @@
         </attr>
         <attr name="tip_start_dis_x" format="dimension" /><!--x方向上起始点与所在角落的距离，默认20dp-->
         <attr name="tip_text_v_padding" format="dimension" /><!--字在梯形内的上下间距，默认3dp-->
-        <attr name="tip_background" format="color" /><!--提示梯形的背景色，默认主题橙色-->
+        <attr name="tip_background" format="color" /><!--提示梯形的背景色，默认透明色-->
         <attr name="tip_text_color" format="color" /><!--提示梯形的字的颜色，默认白色-->
         <attr name="tip_text_size" format="dimension" /><!--提示梯形的字的大小，默认11sp-->
         <attr name="tip_text" format="string" /><!--提示文本-->

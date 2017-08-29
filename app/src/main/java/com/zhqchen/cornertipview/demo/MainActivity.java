@@ -9,5 +9,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        CornerTipView cornerTipView = new CornerTipView(this);
+//        cornerTipView.setTipCornerPosition(CornerTipView.TIP_POSITION_TOP_LEFT);
+//        cornerTipView.setTipBackgroundColor(Color.RED);
+//        cornerTipView.setTipContent("tip");
     }
 }
